@@ -1,1 +1,13 @@
-# index.-htm
+# index.html
+<html>
+  <body>
+    <text>деньги:</text>
+    <text id="money"></text>
+    <script>
+      var i = 0;
+      setInterval(() => { document.getElementById("money").innerHTML = i; i++ }, 1000);
+    </script>
+
+  </body>
+</html>
+
